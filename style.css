@@ -1,1 +1,29 @@
+.bib {
+width: 10px;
+height: auto;
+}
 
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+  
+li {
+display: inline;
+float: left;
+}
+
+a {
+display: block;
+padding: 30px;
+background-color: #fff;
+font-family: sans-serif;
+color: #262626;
+text-decoration: none;
+}
+
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #79ba00;
+}
