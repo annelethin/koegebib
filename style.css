@@ -3,14 +3,7 @@ width: 10px;
 height: auto;
 }
 
-h1 { font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    color:#79ba00;
-    text-align: left;
-    padding-top: 50px;
-    border: 30px;
-    margin-top: 100px;
-    padding-left: 20px;
+h1 { font-size: 18px;
 }
 
   /* styling for horisontal navigation */
@@ -46,6 +39,17 @@ font-size: 18px;
     display: block;
 }
 
+.sidenavoverskrift { font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color:#79ba00;
+    text-align: left;
+    padding-top: 50px;
+    border: 30px;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+
 .sidenav ul {
     list-style-type: none;
     margin: 0;
@@ -70,4 +74,60 @@ font-size: 18px;
 
 .sidenav li a:hover {
     color: #79ba00;
+}
+
+.footer {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.bibtilbyder {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.praktiskinformation{
+    padding-left: 55px;
+    padding-right: 55px;
+    
+}
+.kontakt{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.someikoner{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+ /* styling inspireret af https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons 20.02.22 */
+ 
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 35px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+.fa-facebook {
+    background: #79ba00;
+    color: white;
+    margin-top: 70px;
+}
+
+.fa-instagram {
+    background: #79ba00;
+    color: white;
+    margin-top: 15px;
 }
