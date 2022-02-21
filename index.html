@@ -11,41 +11,119 @@
     
 </head>
 <body>
-    <img class="bib" src="logo.png" alt="koegebib" >    
-
+  
  <!-- horisontal navigationsbar-->   
-<header>
-    <nav class="topnav">
+
+<header class="topnav">
+    <img class="bib" src="logo.png" alt="koegebib" >  
+    <nav>
         <ul>
-            <li><a href="#forside">Forside</a></li>
-            <li><a href="#e-bøger og medier">E-bøger og medier</a></li>
-            <li><a href="#anbefalinger">Anbefalinger</a></li>
-            <li><a href="#Studieunivers">Studieunivers</a></li>
-            <li><a href="#Kalender">Kalender</a></li>
+            <li><a href="#">Forside</a></li>
+            <li><a href="#">E-bøger og medier</a></li>
+            <li><a href="#">Anbefalinger</a></li>
+            <li><a href="#">Studieunivers</a></li>
+            <li><a href="#">Kalender</a></li>
         </ul>
     </nav>
 
 </header>
 
- <!-- vertikal navigationsbar-->   
-
-<div class="sidenav">
+ <!-- vertikal navigationsbar  
+<section id="forside">
+  
+    <div class="sidenav">
     <h1 class="sidenavoverskrift">Studieunivers</h1>
     
     <nav>
         <ul>
-            <li><a href="#fag">Fag</a></li>
-            <li><a href="#hjælp til opgaver">Hjælp til opgaver</a></li>
-            <li><a href="#Biblioteksvagten">Biblioteksvagten</a></li>
-            <li><a href="#Databaser">Databaser</a></li>
-            <li><a href="#Litteraturlistautomaten">Litteraturlistautomaten</a></li>
+            <li><a href="#">Fag</a></li>
+            <li><a href="#">Hjælp til opgaver</a></li>
+            <li><a href="#">Biblioteksvagten</a></li>
+            <li><a href="#">Databaser</a></li>
+            <li><a href="#">Litteraturlistautomaten</a></li>
         </ul>
 
     </nav>
 
-</div>
+    </div>
 
-<script src="main.js"></script>
+    <div class="forsideindhold">
+        <h1>Velkommen til Studieuniverset</h1>
+
+        <img src="forside.jpg" alt="love to learn">
+
+        <p>
+            Her kan du blandt andet får hjælp til at søge efter litteratur enten blandt fysiskebøger
+            eller på vores mange online databaser. <br>
+
+            Her finder du også hjælp og guides til afleveringer og større opgaver. Går du i 6. - 10. 
+            klasse og har brug for lektiehjælp, vil vi anbefale lektier-online.dk. 
+        </p>
+    </div>
+
+</section>--> 
+
+
+<aside>
+    <nav class="tab">
+        <button class="tablinks" onclick="openButton(event, 'Studieunivers')" id="defaultOpen">Studieunivers</button>
+        <button class="tablinks" onclick="openButton(event, 'Fag')">Fag</button>
+        <button class="tablinks" onclick="openButton(event, 'Hjælptilopgaver')">Hjaelp til opgaver</button>
+        <button class="tablinks" onclick="openButton(event, 'Biblioteksvagten')">Biblioteksvagten</button>
+        <button class="tablinks" onclick="openButton(event, 'Databaser')">Databaser</button>
+        <button class="tablinks" onclick="openButton(event, 'Litteraturlistautomaten')">Litteraturlistautomaten</button>
+
+    </nav>
+</aside>
+
+<section id="Studieunivers" class="tabcontent">
+    <h3>Velkommen til Studieuniverset</h3>
+    <img class="lovetolearn" src="forside.jpg" alt="love to learn" width="50%">
+
+    <p>Her kan du blandt andet får hjælp til at søge efter litteratur enten blandt fysiskebøger
+        eller på vores mange online databaser. </p>
+        
+    <p>
+        Her finder du også hjælp og guides til afleveringer og større opgaver. Går du i 6. - 10. 
+        klasse og har brug for lektiehjælp, vil vi anbefale lektier-online.dk.</p>
+</section>
+
+<section id="Fag" class="tabcontent">
+
+  <button type="button" class="fag-button" onclick> Dansk </button>
+  <button type="button" class="fag-button" onclick> Design </button>
+<button type="button" class="fag-button" onclick="window.location.href='CV.html'">Biologi</button>
+  <button type="button" class="fag-button" onclick> Engelsk </button>
+  <button type="button" class="fag-button" onclick> Fysik & Kemi </button>
+  <button type="button" class="fag-button" onclick> Psykologi </button>
+  <button type="button" class="fag-button" onclick> Matematik </button>
+  <button type="button" class="fag-button" onclick> Økonomi </button>
+  <button type="button" class="fag-button" onclick> Teknologi </button>
+  
+
+
+</section>
+
+<section id="Hjælptilopgaver" class="tabcontent">
+  <h3>Hjaelp til opgaver</h3>
+  <p>Paris is the capital of France.</p> 
+</section>
+
+<section id="Biblioteksvagten" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</section>
+
+<section id="Databaser" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+</section>
+
+<section id="Litteraturlistautomaten" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+</section>
+
 <footer>
     <div class="footer">
 
@@ -107,7 +185,7 @@
     </div>
     
 </footer>   
-
+<script src="main.js"></script>
 </body>
 
 </html>
