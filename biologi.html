@@ -15,7 +15,7 @@
  <!-- horisontal navigationsbar-->   
 
 <header class="topnav">
-    <img class="bib" src="/img/logo.png" alt="koegebib" >  
+    <img class="bib" src="logo.png" alt="koegebib" >  
     <nav>
         <ul>
             <li><a href="#">Forside</a></li>
@@ -34,12 +34,10 @@
     
 </header>
 
-
-
 <aside>
     <nav class="tab">
-        <button class="tablinks" onclick="openButton(event, 'Studieunivers')" id="defaultOpen">Studieunivers</button>
-        <button class="tablinks" onclick="openButton(event, 'Fag')">Fag</button>
+        <button class="tablinks" onclick="openButton(event, 'Studieunivers')">Studieunivers</button>
+        <button class="tablinks" onclick="openButton(event, 'Fag')" id="defaultOpen">Fag</button>
         <button class="tablinks" onclick="openButton(event, 'Hjælptilopgaver')">Hjaelp til opgaver</button>
         <button class="tablinks" onclick="openButton(event, 'Biblioteksvagten')">Biblioteksvagten</button>
         <button class="tablinks" onclick="openButton(event, 'Databaser')">Databaser</button>
@@ -61,18 +59,60 @@
         klasse og har brug for lektiehjælp, vil vi anbefale lektier-online.dk.</p>
 </section>
 
-<section id="Fag" class="tabcontent">
+<section id="Fag" class="biologitabcontent">
+    
+    <h3 class="biologioverskrift">Biologi</h3>
+    
 
-  <button type="button" class="fag-button" onclick> Dansk </button>
-  <button type="button" class="fag-button" onclick> Design </button>
-  <button type="button" class="fag-button" onclick="window.location.href='biologi.html'">Biologi</button> <br>
-  <button type="button" class="fag-button" onclick> Engelsk </button>
-  <button type="button" class="fag-button" onclick> Fysik & Kemi </button>
-  <button type="button" class="fag-button" onclick> Psykologi </button> <br>
-  <button type="button" class="fag-button" onclick> Matematik </button> 
-  <button type="button" class="fag-button" onclick> Økonomi </button>
-  <button type="button" class="fag-button" onclick> Teknologi </button>
-  
+    
+    <div class="column">
+        
+    <img class="biologibilleder" src="fotosyntese.jpg" alt="fotosyntese">
+    <h4>Fotosyntese</h4>
+    <p> Fotosyntese er en række kompliceret biokemiske processer, 
+        der sætter planter, alger og cyanobakterier i stand til ved hjælp 
+        af solenergi at omdanne atmosfærens kuldioxid (carbondioxid) 
+        til organiske forbindelser og ilt.
+    </p>
+    </div>
+   
+    <div class="column">
+    <img class="biologibilleder" src="epidemioginfektioner.jpg" alt="epidemioginfektioner">
+    
+    <h4>Epidemi og infektioner</h4>
+    <p>
+        I vores del af verden er vi ikke særlig vant til at mennesker dør 
+        af infektioner. Vacciner, godt uddannenede læger og god 
+        hygiejne har så godt som udryddet mange af de sygdomme, 
+        som folk med god grund frygtede i gamle dage. Mange steder 
+        i verden er man ikke så heldige og må leve i frygt for at blive 
+        smittet med dødelige virussygdomme, så som ebola. 
+    </p>
+    </div>
+   
+    
+    <div class="column">
+    <img class="biologibilleder" src="molekylærbiologi.jpg" alt="molekylærbiologi">
+    
+    <h4>Molekylærbiologi</h4>
+    <p>Molekylærbiologi beskæftiger sig med livets molekyler,
+        som er biologiens allermindste byggesten. Disse molekyler 
+        er bl.a. proteiner, nukleinsyrer og kulhydrater.
+    </p>
+    </div>
+
+    <div class="column">
+    <img class="biologibilleder" src="kropsidealer.jpg" alt="kropsidealer">
+    <h4>Kropsidealer</h4>
+
+    <p>
+        Skønhed er et foranderligt koncept, og gennem tiden har eksempelvis
+        forestillingen om den perfekte krop ændret sig markant. I vores tid er
+        der et stort fokus på den slanke krop, der både ses som et skønhedsideal 
+       og som et udtryk for selvkontrol og karakterstyrke.
+    </p>
+    </div>
+ 
 </section>
 
 <section id="Hjælptilopgaver" class="tabcontent">
